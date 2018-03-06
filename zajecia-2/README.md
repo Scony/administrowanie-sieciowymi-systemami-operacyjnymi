@@ -1,8 +1,6 @@
-Zajecia 2
-=========
+# Zajecia 2
 
-1. Tworzenie i uruchamianie maszyny wirtualniej
------------------------------------------------
+## 1. Tworzenie i uruchamianie maszyny wirtualniej
 
 Zanim przejdziemy do uruchomienia maszyny wirtualnej, musimy najpierw pobrac przygotowany wczesniej snapshot gotowej maszyny (z zainstalowanym debianem):
 
@@ -17,8 +15,7 @@ Aby stworzyc maszyne wirtualna nalezy:
  
 Po poprawnym imporcie maszyny, mozna ja uruchomic.
 
-2. Logowanie do systemu
------------------------
+## 2. Logowanie do systemu
 
 Poprawnie uruchomiony system powinien uruchomic sie az do ekranu logowania. Do dyspozycji sa dwa podstawowe konta:
  - zwykle - `student` z haslem `student`
@@ -26,8 +23,7 @@ Poprawnie uruchomiony system powinien uruchomic sie az do ekranu logowania. Do d
 
 Zalecam uzywanie konta `student` z ewentualnym przechodzeniem na konto `root` tylko kiedy potrzeba. Przejscie z uzytkownika `student` na `root` mozna zrealizowac poprzez wykonanie komendy `su` i podanie hasla uzytkownika `root`.
 
-3. Pierwsze kroki w systemie
-----------------------------
+## 3. Pierwsze kroki w systemie
 
 Poniewaz system jest w wersji `headless` - nie ma w nim graficznego interfejsu uzytkownika (`GUI`). Interakcja z systemem odbywa sie w pelni poprzez wydawanie polecen.
 
@@ -39,8 +35,7 @@ ls -l / | less
 
 Jesli potrzebujemy wydac kilka czasochlonnych polecen na raz, mozemy uzyc innego niz pierwszy terminala. Przechodzenie pomiedzy terminalami realizuje sie za pomoca skrotu `logo_windows + strzalka (lewo/prawo)`.
 
-4. Podstawowe informacje o systemie
------------------------------------
+## 4. Podstawowe informacje o systemie
 
 Aby uzyskac garsc podstawowych informacji na temat nazwy hosta, wersji jadra, nazwy systemu itp. mozna skorzystac z polecenia:
 
@@ -67,8 +62,7 @@ Poszukac pliku ktory:
  - zawiera informacje o kontach uzytkownikow istniejacych w systemie
  - zawiera wydanie systemu (tzw. release)
 
-5. Zarzadzanie oprogramowaniem
-------------------------------
+## 5. Zarzadzanie oprogramowaniem
 
 W przypadkach gdy potrzebujemy programu, a nie jest on zainstalowany w systemie lub gdy chcemy sie czegos dowiedziec o oprogramowaniu ktore posiadamy, mozemy (w przypadku debiana) skorzystac z polecen takich jak np:
  - `apt-cache` - pozwala na nieinwazyjne przegladanie informacji zawartych w metadanych systemu zarzadzania pakietami
@@ -91,8 +85,7 @@ apt-get update # wymaga polaczenia z internetem
  - sprawdzic co robi polecenie `lynx pawel.lampe.staff.iiar.pwr.edu.pl`
  - sprawdzic za pomoca manuala co robi polecenie `nmap`
 
-6. Budowanie oprogramowania ze zrodel
--------------------------------------
+## 6. Budowanie oprogramowania ze zrodel
 
 Czasami zdarza sie, iz repozytoria nie zawieraja pakietu ktory nas interesuje. W takich przypadkach zazwyczaj jestesmy zdani za budowanie pakietu ze zrodel.
 
