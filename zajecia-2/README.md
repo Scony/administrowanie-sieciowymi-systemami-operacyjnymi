@@ -57,6 +57,9 @@ Sprawdzic jakim poleceniem mozna:
  - sprawdzic jacy uzytkownicy sa zalogowani w systemie
  - wylistowac interfejsy sieciowe
  - wylistowac urzadzenia podpiete do magistrali PCI
+ - wylistowac zaladowane moduly jadra
+ - wylistowac uruchomione procesy
+ - wylistowac uruchomione uslugi
 
 Poszukac pliku ktory:
  - zawiera informacje o kontach uzytkownikow istniejacych w systemie
