@@ -2,7 +2,7 @@ Zajecia 2
 =========
 
 1. Tworzenie i uruchamianie maszyny wirtualniej
---------------------------------
+-----------------------------------------------
 
 Zanim przejdziemy do uruchomienia maszyny wirtualnej, musimy najpierw pobrac przygotowany wczesniej snapshot gotowej maszyny (z zainstalowanym debianem):
 
