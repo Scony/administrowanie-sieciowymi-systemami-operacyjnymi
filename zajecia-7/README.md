@@ -25,7 +25,7 @@ W kontekscie systemow GNU/Linux najczestszymi poleceniami wykorzystywanymi do pr
 
 ### Zadania
 
-1. Na maszynie `A` wlaczyc podglad logow `sshd`: `tail -f /var/log/auth.log` i zostawic
+1. Na maszynie `B` wlaczyc podglad logow `sshd`: `tail -f /var/log/auth.log` i zostawic
 2. Z maszyny `A`:
    1. zalogowac sie po protokole SSH na uzytkownika `student` na maszynie `B`
    2. wydac kilka polecen
